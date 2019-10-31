@@ -6,7 +6,7 @@ const express= require('express');
 const server = express();
 server.use(express.json())//teaching express how to read json for post and put to work
  
-const dataBase= require('./data/db.js');
+const db= require('./data/db.js');
 
 //route/request handler I believe
 server.get('/',( req , res) =>{
