@@ -10,7 +10,7 @@ const db= require('./data/db.js');
 
 //route/request handler I believe
 server.get('/',( req , res) =>{
-    res.send("hola ese");
+    res.send("IM THE MAN OF THE YEAR Y'ALL");
 });
 
 
